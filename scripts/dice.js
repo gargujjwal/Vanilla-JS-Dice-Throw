@@ -10,7 +10,7 @@ function changeWinner(player, draw = false) {
     }
 }
 
-const player1Name = prompt("Name of player 1: ");
+const player1Name = prompt("Please Enter your name");
 document.querySelector("#player1").textContent = player1Name;
 
 // simulate dice roll
