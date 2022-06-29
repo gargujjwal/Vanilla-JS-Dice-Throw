@@ -2,13 +2,16 @@ function giveRandomDice() {
     return Math.floor(Math.random() * 6) + 1;
 }
 
-function changeWinner(playerNumber, draw = false) {
+function changeWinner(player, draw = false) {
     if (draw) {
         document.querySelector(".title h1").textContent = "Draw";
     } else {
-        document.querySelector(".title h1").textContent = "🚩 Player " + playerNumber + " WON";
+        document.querySelector(".title h1").textContent = "🚩 " + player + " WON";
     }
 }
+
+const player1Name = prompt("Name of player 1: ");
+document.querySelector("#player1").textContent = player1Name;
 
 // simulate dice roll
 const player1Dice = giveRandomDice();
@@ -21,9 +24,9 @@ document.querySelector(".dice2 img").setAttribute("src", "images/dice" + player2
 
 // judge the dice roll
 if (player1Dice > player2Dice) {
-    changeWinner(1);
+    changeWinner(player1Name);
 } else if (player2Dice > player1Dice) {
-    changeWinner(2);
+    changeWinner("Computer");
 } else {
     changeWinner(0, draw = true);
 }
