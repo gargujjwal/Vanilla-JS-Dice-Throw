@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: #393c43;
+    font-family: 'Lobster', cursive;
+}
+
+.container {
+    color: #4ECCA3;
+}
+
+.title {
+    font-size: 6rem;
+    padding-top: 3%;
+}
+
+.player-and-dice {
+    padding: 3% 30%;
+}
+
+.player-name {
+    font-family: 'Indie Flower', cursive;
+    font-weight: lighter;
+    font-size: 2.5rem;
+}
+
+.player, .dices {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2% 0;
+}
+
+
+/*Footer*/
+.credits {
+    color: #fff;
+
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.credits a {
+    text-decoration: none;
+    color: #D6D5A8;
+}
+
+
+.credits a:hover {
+    background-color: grey;
+    border: 2px solid;
+    border-radius: 5%;
+    /*overflow: hidden;*/
+}
