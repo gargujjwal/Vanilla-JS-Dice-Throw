@@ -97,7 +97,9 @@
 Right when the website is loaded, it prompts the user for their name, and simulates dice throwing, and then displays the
 result.
 <p align="center">
-  <img src="images/demo.gif" alt="animated" />
+   <a href="https://ujjwalgarg100204.github.io/Dice-Throw-using-JavaScript/">
+      <img src="images/demo.gif" alt="animated" />
+   </a>
 </p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
