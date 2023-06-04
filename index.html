@@ -1,48 +1,101 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Dice Game</title>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+		/>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Dice Game</title>
 
-    <!--FONTS-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=JetBrains+Mono&family=Lobster&display=swap"
-          rel="stylesheet">
+		<!--FONTS-->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=JetBrains+Mono&family=Lobster&display=swap"
+			rel="stylesheet"
+		/>
 
-    <!--CSS-->
-    <link rel="stylesheet" href="css/styles.css">
+		<!--CSS-->
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script>
+			tailwind.config = {
+				theme: {
+					extend: {
+						colors: {
+							blackish: "#393c43",
+							greenish: "#4ecca3",
+							"credit-col": "#d6d5a8",
+						},
+					},
+					fontFamily: {
+						heading: ["Lobster", "cursive"],
+						code: ["'JetBrains Mono'", "monospace"],
+						body: ["'Indie Flower'", "cursive"],
+					},
+				},
+			};
+		</script>
+	</head>
+	<body class="min-h-screen bg-blackish space-y-20 text-center text-greenish">
+		<main class="container mx-auto pt-12 lg:pt-24 space-y-20 lg:space-y-32">
+			<div
+				class="title font-heading font-bold text-5xl lg:text-8xl xl:text-9xl text-greenish"
+			>
+				<h1 onclick="location.reload()">Refresh Me</h1>
+			</div>
+			<section
+				class="player-and-dice font-body flex gap-8 justify-center lg:justify-evenly"
+			>
+				<div class="flex flex-col gap-4 lg:gap-12">
+					<h3
+						class="player-name text-3xl lg:text-7xl lg:grid lg:place-content-center"
+						id="player1"
+					>
+						Player 1
+					</h3>
+					<div
+						class="dice1 w-36 lg:w-56 aspect-square hover:scale-110 transition-transform"
+					>
+						<img
+							class="w-full h-full"
+							src="./images/dice1.png"
+							alt="dice-1"
+						/>
+					</div>
+				</div>
 
-</head>
-<body>
-<section class="container">
-    <div class="title">
-        <h1>Refresh Me</h1>
-    </div>
-    <div class="player-and-dice">
-        <div class="player">
-            <h3 class="player-name" id="player1">Player 1</h3>
-            <h3 class="player-name" id="player2">Computer</h3>
-        </div>
-        <div class="dices">
-            <div class="dice1">
-                <img src="images/dice1.png" alt="dice-1">
-            </div>
-            <div class="dice2">
-                <img src="images/dice2.png" alt="dice-2">
-            </div>
-        </div>
-    </div>
-</section>
+				<div class="flex flex-col gap-4 lg:gap-12">
+					<h3
+						class="player-name text-3xl lg:text-7xl lg:grid lg:place-content-center"
+						id="player2"
+					>
+						Computer
+					</h3>
+					<div
+						class="dice2 w-36 lg:w-56 aspect-square hover:scale-110 transition-transform"
+					>
+						<img
+							class="w-full h-full"
+							src="./images/dice2.png"
+							alt="dice-2"
+						/>
+					</div>
+				</div>
+			</section>
+		</main>
 
-<footer>
-    <p class="credits">
-        Coded By: <a href="https://github.com/ujjwalgarg100204" class="author">Ujjwal Garg</a>
-    </p>
-</footer>
-<script src="scripts/dice.js"></script>
-</body>
+		<footer>
+			<p class="font-code text-white text-xs md:text-base">
+				Coded By:
+				<a
+					href="https://github.com/ujjwalgarg100204"
+					class="text-credit-col hover:underline"
+					>Ujjwal Garg</a
+				>
+			</p>
+		</footer>
+		<script src="scripts/dice.js"></script>
+	</body>
 </html>
