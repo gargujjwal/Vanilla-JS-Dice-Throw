@@ -88,7 +88,7 @@ Immerse yourself in the thrill of dice rolling with DiceSim, a responsive websit
 
 <!-- ABOUT THE PROJECT -->
 <h2>About The Project</h2>
-Experience the excitement of rolling the dice anytime, anywhere with DiceSim. This responsive website combines the power of Tailwind CSS and Vanilla JavaScript to bring you an immersive dice throwing simulation. With realistic animations and customizable settings, DiceSim offers a virtual dice rolling experience that is engaging and enjoyable for players of all ages.
+Experience the excitement of rolling the dice anytime, anywhere with DiceSim. This responsive website combines the power of Tailwind CSS and Vanilla JavaScript to bring you an immersive dice throwing simulation. With realistic animations and customizable settings, DiceSim offers a virtual dice rolling experience that is engaging and enjoyable for players of all ages. 
 
 #### Desktop Design
 
