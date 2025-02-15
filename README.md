@@ -2,24 +2,24 @@
 
 <!-- Project Shields -->
 <p align="center">
-  <a href="https://github.com/ujjwalgarg100204/Vanilla-JS-Dice-Throw/network/members"
+  <a href="https://github.com/gargujjwal/Vanilla-JS-Dice-Throw/network/members"
   >
     <img
-      src="https://img.shields.io/github/forks/ujjwalgarg100204/Vanilla-JS-Dice-Throw.svg?style=for-the-badge"
+      src="https://img.shields.io/github/forks/gargujjwal/Vanilla-JS-Dice-Throw.svg?style=for-the-badge"
       alt="fork-shield"
     />
   </a>
   <a
-    href="https://github.com/ujjwalgarg100204/Vanilla-JS-Dice-Throw/blob/master/LICENSE.txt"
+    href="https://github.com/gargujjwal/Vanilla-JS-Dice-Throw/blob/master/LICENSE.txt"
   >
     <img
-      src="https://img.shields.io/github/license/ujjwalgarg100204/Vanilla-JS-Dice-Throw.svg?style=for-the-badge"
+      src="https://img.shields.io/github/license/gargujjwal/Vanilla-JS-Dice-Throw.svg?style=for-the-badge"
       alt="license-shield"
     />
   </a>
-  <a href=" https://github.com/ujjwalgarg100204/Vanilla-JS-Dice-Throw/stargazers">
+  <a href=" https://github.com/gargujjwal/Vanilla-JS-Dice-Throw/stargazers">
     <img
-      src="https://img.shields.io/github/stars/ujjwalgarg100204/Vanilla-JS-Dice-Throw.svg?style=for-the-badge"
+      src="https://img.shields.io/github/stars/gargujjwal/Vanilla-JS-Dice-Throw.svg?style=for-the-badge"
       alt="star-shield"
     />
   </a>
@@ -50,19 +50,19 @@
 Immerse yourself in the thrill of dice rolling with DiceSim, a responsive website powered by Tailwind CSS and Vanilla JavaScript.
     <br />
     <a
-      href="https://ujjwalgarg100204.github.io/Vanilla-JS-Dice-Throw/"
+      href="https://gargujjwal.github.io/Vanilla-JS-Dice-Throw/"
       aria-label="Link to go to the demo of the project"
       >View Demo</a
     >
     .
     <a
-      href="https://github.com/ujjwalgarg100204/Vanilla-JS-Dice-Throw/issues"
+      href="https://github.com/gargujjwal/Vanilla-JS-Dice-Throw/issues"
       aria-label="Link to issues of github repo"
       >Report Bug</a
     >
     ·
     <a
-      href="https://github.com/ujjwalgarg100204/Vanilla-JS-Dice-Throw/issues"
+      href="https://github.com/gargujjwal/Vanilla-JS-Dice-Throw/issues"
       aria-label="Link to issues of github repo"
       >Request Feature</a
     >
@@ -88,7 +88,7 @@ Immerse yourself in the thrill of dice rolling with DiceSim, a responsive websit
 
 <!-- ABOUT THE PROJECT -->
 <h2>About The Project</h2>
-Experience the excitement of rolling the dice anytime, anywhere with DiceSim. This responsive website combines the power of Tailwind CSS and Vanilla JavaScript to bring you an immersive dice throwing simulation. With realistic animations and customizable settings, DiceSim offers a virtual dice rolling experience that is engaging and enjoyable for players of all ages. 
+Experience the excitement of rolling the dice anytime, anywhere with DiceSim. This responsive website combines the power of Tailwind CSS and Vanilla JavaScript to bring you an immersive dice throwing simulation. With realistic animations and customizable settings, DiceSim offers a virtual dice rolling experience that is engaging and enjoyable for players of all ages.
 
 #### Desktop Design
 
@@ -99,7 +99,7 @@ Experience the excitement of rolling the dice anytime, anywhere with DiceSim. Th
 #### Mobile Design
 
 <p align="center">
-	<img src="./images/mobile-view.gif" alt="mobile view" height="500" /> 
+ <img src="./images/mobile-view.gif" alt="mobile view" height="500" />
 </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -166,9 +166,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Author
 
--   Website - [Ujjwal Garg](https://github.com/ujjwalgarg100204)
--   Instagram - [@ujjwalgarg100204](https://www.instagram.com/ujjwalgarg100204/)
--   Linkedin - [@ujjwalgarg100204](https://www.linkedin.com/in/ujjwal-garg-3a5639243/)
--   Twitter -[@UjwalGarg100204](https://twitter.com/UjwalGarg100204)
+- Website - [Ujjwal Garg](https://github.com/gargujjwal)
+- Instagram - [@gargujjwal](https://www.instagram.com/gargujjwal/)
+- Linkedin - [@gargujjwal](https://www.linkedin.com/in/gargujjwal04/)
+- Twitter -[@UjwalGarg100204](https://twitter.com/UjwalGarg100204)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
